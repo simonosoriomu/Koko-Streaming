@@ -1,40 +1,45 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Koko streaming | Tu portal de entretenimiento digital</title>
-    
+
     <!-- 🚨 MEDIDA DE SEGURIDAD ANTI-BOTS: Ocultar de Google y evitar rastreo -->
     <meta name="robots" content="noindex, nofollow">
-    
+
     <!-- Meta descripción genérica y comercial -->
-    <meta name="description" content="Accede al mejor contenido digital al instante. Servicio rápido, seguro y con soporte garantizado.">
-    
+    <meta name="description"
+        content="Accede al mejor contenido digital al instante. Servicio rápido, seguro y con soporte garantizado.">
+
     <!-- Etiquetas Open Graph (WhatsApp, Facebook, etc.) - Ofuscadas contra bots -->
     <meta property="og:title" content="Koko streaming | Tu portal de entretenimiento digital">
-    <meta property="og:description" content="Accede al mejor contenido digital al instante. Servicio rápido, seguro y con soporte garantizado.">
+    <meta property="og:description"
+        content="Accede al mejor contenido digital al instante. Servicio rápido, seguro y con soporte garantizado.">
     <meta property="og:url" content="https://kokostreaming.co/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/logo.png">
-    
+
     <!-- Conexión del Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    
+
     <!-- OPTIMIZACIÓN: Preconexiones para acelerar descargas de fuentes e íconos -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://t3.gstatic.com">
-    
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <!-- OPTIMIZACIÓN: defer en Chart.js para no bloquear el renderizado de la página -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <script>
         tailwind.config = {
@@ -61,6 +66,7 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="antialiased min-h-screen pb-24 relative overflow-x-hidden">
 
     <!-- INTRO CINEMATOGRÁFICA -->
@@ -73,7 +79,8 @@
     <noscript>
         <div class="noscript-warning">
             ⚠️ ESTÁS USANDO UN VISOR BÁSICO.<br><br>
-            Para ver el diseño real y usar el carrito de compras, toca el botón de compartir y selecciona <strong>"Abrir en Chrome"</strong> o <strong>"Abrir en Safari"</strong>.
+            Para ver el diseño real y usar el carrito de compras, toca el botón de compartir y selecciona <strong>"Abrir
+                en Chrome"</strong> o <strong>"Abrir en Safari"</strong>.
         </div>
     </noscript>
 
@@ -84,22 +91,42 @@
         <header class="glass-header sticky top-0 z-40 px-4 md:px-8 py-3.5 flex justify-between items-center">
             <!-- LOGOTIPO OFICIAL -->
             <div class="flex items-center h-full">
-                <img src="assets/koko_logo.png" alt="Koko streaming" class="h-9 md:h-14 object-contain" loading="eager" fetchpriority="high">
+                <img src="assets/koko_logo.png" alt="Koko streaming" class="h-9 md:h-14 object-contain" loading="eager"
+                    fetchpriority="high">
             </div>
-            
+
             <div class="flex items-center gap-3 md:gap-5">
                 <!-- Redes Minimalistas (Visibles en móvil y desktop) -->
                 <div class="flex gap-2.5 md:gap-4 mr-1 md:mr-4 border-r border-white/10 pr-3 md:pr-6">
-                    <a href="https://www.facebook.com/kokostreaming.co/" target="_blank" class="text-gray-400 hover:text-brand-light transition-colors"><svg class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.597 1.323-1.324V1.325C24 .597 23.403 0 22.675 0z"/></svg></a>
-                    <a href="https://www.instagram.com/tiendastreamingcolombia" target="_blank" class="text-gray-400 hover:text-brand-light transition-colors"><svg class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
-                    <a href="https://www.tiktok.com/@kokostreaming.co" target="_blank" class="text-gray-400 hover:text-brand-light transition-colors"><svg class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/></svg></a>
+                    <a href="https://www.facebook.com/share/18jVT2saSj/?mibextid=wwXIfr" target="_blank"
+                        class="text-gray-400 hover:text-brand-light transition-colors"><svg
+                            class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.597 1.323-1.324V1.325C24 .597 23.403 0 22.675 0z" />
+                        </svg></a>
+                    <a href="#" class="text-gray-400 hover:text-brand-light transition-colors"><svg
+                            class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg></a>
+                    <a href="#" class="text-gray-400 hover:text-brand-light transition-colors"><svg
+                            class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z" />
+                        </svg></a>
                 </div>
-                
+
                 <!-- Icono de Carrito E-commerce -->
                 <div id="cart-icon-container" class="relative cursor-pointer flex items-center gap-2 group">
-                    <div class="relative w-9 h-9 md:w-10 md:h-10 flex items-center justify-center bg-white/5 border border-brand-mid/30 rounded-full group-hover:bg-brand-mid/20 transition-colors">
-                        <svg class="w-4 h-4 md:w-5 md:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
-                        <span id="cart-badge" class="absolute -top-1 -right-1 bg-brand-light text-white text-[10px] font-bold w-4 h-4 flex items-center justify-center rounded-full opacity-0 transition-opacity shadow-[0_0_10px_#8b5cf6] font-inter">0</span>
+                    <div
+                        class="relative w-9 h-9 md:w-10 md:h-10 flex items-center justify-center bg-white/5 border border-brand-mid/30 rounded-full group-hover:bg-brand-mid/20 transition-colors">
+                        <svg class="w-4 h-4 md:w-5 md:h-5 text-white" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                        </svg>
+                        <span id="cart-badge"
+                            class="absolute -top-1 -right-1 bg-brand-light text-white text-[10px] font-bold w-4 h-4 flex items-center justify-center rounded-full opacity-0 transition-opacity shadow-[0_0_10px_#8b5cf6] font-inter">0</span>
                     </div>
                 </div>
             </div>
@@ -107,14 +134,16 @@
 
         <!-- TEXTO DINÁMICO DESLIZANTE (MARQUEE DE BENEFICIOS) -->
         <div class="w-full bg-[#0a0a0a] border-b border-brand-dark/30 py-2.5 overflow-hidden z-30">
-            <div class="animate-scroll text-[11px] md:text-xs font-semibold text-gray-300 uppercase tracking-widest font-inter">
+            <div
+                class="animate-scroll text-[11px] md:text-xs font-semibold text-gray-300 uppercase tracking-widest font-inter">
                 <!-- Fragmento Principal -->
                 <div class="flex items-center">
                     <span class="mx-3 md:mx-4 text-brand-light">⚡</span> Ofrecemos garantía y soporte
                     <span class="mx-3 md:mx-4 text-brand-light">💳</span> Recibimos todos los medios de pago
                     <span class="mx-3 md:mx-4 text-brand-light">🚀</span> Activación inmediata en horarios de atención
                     <span class="mx-3 md:mx-4 text-brand-light">🔒</span> Pago seguro en WhatsApp
-                    <span class="mx-3 md:mx-4 text-brand-light">🎬</span> Combos de diferentes plataformas al mejor precio
+                    <span class="mx-3 md:mx-4 text-brand-light">🎬</span> Combos de diferentes plataformas al mejor
+                    precio
                 </div>
                 <!-- Fragmento Duplicado para Loop Infinito Perfecto -->
                 <div class="flex items-center">
@@ -122,7 +151,8 @@
                     <span class="mx-3 md:mx-4 text-brand-light">💳</span> Recibimos todos los medios de pago
                     <span class="mx-3 md:mx-4 text-brand-light">🚀</span> Activación inmediata en horarios de atención
                     <span class="mx-3 md:mx-4 text-brand-light">🔒</span> Pago seguro en WhatsApp
-                    <span class="mx-3 md:mx-4 text-brand-light">🎬</span> Combos de diferentes plataformas al mejor precio
+                    <span class="mx-3 md:mx-4 text-brand-light">🎬</span> Combos de diferentes plataformas al mejor
+                    precio
                 </div>
             </div>
         </div>
@@ -132,69 +162,97 @@
 
             <!-- HERO SECTION E-COMMERCE -->
             <section class="reveal-on-scroll">
-                <div class="relative px-4 py-12 md:py-24 rounded-[3rem] border border-white/5 overflow-hidden flex flex-col items-center text-center shadow-[0_0_50px_rgba(109,40,217,0.05)]">
-                    
+                <div
+                    class="relative px-4 py-12 md:py-24 rounded-[3rem] border border-white/5 overflow-hidden flex flex-col items-center text-center shadow-[0_0_50px_rgba(109,40,217,0.05)]">
+
                     <!-- Fondo inmersivo -->
                     <div class="absolute inset-0 bg-[#050505] z-0"></div>
-                    <div class="absolute -top-[30%] left-1/2 -translate-x-1/2 w-[120%] md:w-[80%] h-[70%] bg-brand-mid/20 blur-[120px] rounded-full pointer-events-none z-0"></div>
-                    
+                    <div
+                        class="absolute -top-[30%] left-1/2 -translate-x-1/2 w-[120%] md:w-[80%] h-[70%] bg-brand-mid/20 blur-[120px] rounded-full pointer-events-none z-0">
+                    </div>
+
                     <!-- Contenido Centralizado -->
                     <div class="relative z-10 flex flex-col items-center w-full max-w-4xl mx-auto mb-10 md:mb-16">
-                        <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-brand-dark/20 border border-brand-light/30 mb-8 backdrop-blur-xl shadow-[0_0_20px_rgba(109,40,217,0.4)]">
+                        <div
+                            class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-brand-dark/20 border border-brand-light/30 mb-8 backdrop-blur-xl shadow-[0_0_20px_rgba(109,40,217,0.4)]">
                             <span class="relative flex h-2.5 w-2.5">
-                              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-light opacity-75"></span>
-                              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-light"></span>
+                                <span
+                                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-light opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-light"></span>
                             </span>
-                            <span class="text-[10px] md:text-xs font-bold text-white tracking-[0.2em] uppercase font-inter">Experiencia Cinematográfica</span>
+                            <span
+                                class="text-[10px] md:text-xs font-bold text-white tracking-[0.2em] uppercase font-inter">Experiencia
+                                Cinematográfica</span>
                         </div>
 
-                        <h2 class="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 md:mb-8 tracking-tighter leading-[0.95]">
+                        <h2
+                            class="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 md:mb-8 tracking-tighter leading-[0.95]">
                             Tu cine en casa, <br />
-                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-light via-[#e0c8ff] to-brand-light">sin límites.</span>
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-brand-light via-[#e0c8ff] to-brand-light">sin
+                                límites.</span>
                         </h2>
-                        
+
                         <p class="text-sm md:text-xl text-gray-400 font-light mb-10 max-w-2xl leading-relaxed">
-                            Cientos de cuentas premium activadas y clientes satisfechos. Armando combos gigantes y ahorrando a diario.
+                            Cientos de cuentas premium activadas y clientes satisfechos. Armando combos gigantes y
+                            ahorrando a diario.
                         </p>
 
                         <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4 md:px-0">
-                            <button onclick="document.getElementById('category-nav').scrollIntoView({behavior: 'smooth'})" class="w-full sm:w-auto px-10 py-5 bg-white text-black font-black rounded-2xl hover:scale-105 active:scale-95 transition-transform duration-300 shadow-[0_0_30px_rgba(255,255,255,0.2)] text-base md:text-lg">
+                            <button
+                                onclick="document.getElementById('category-nav').scrollIntoView({behavior: 'smooth'})"
+                                class="w-full sm:w-auto px-10 py-5 bg-white text-black font-black rounded-2xl hover:scale-105 active:scale-95 transition-transform duration-300 shadow-[0_0_30px_rgba(255,255,255,0.2)] text-base md:text-lg">
                                 Explorar Catálogo
                             </button>
-                            <button onclick="window.location.href='recomendaciones.html'" class="w-full sm:w-auto px-10 py-5 bg-white/5 backdrop-blur-md text-white border border-brand-light/30 font-bold rounded-2xl hover:bg-brand-mid/20 hover:border-brand-light active:scale-95 transition-all duration-300 text-base md:text-lg">
+                            <button onclick="window.location.href='recomendaciones.html'"
+                                class="w-full sm:w-auto px-10 py-5 bg-white/5 backdrop-blur-md text-white border border-brand-light/30 font-bold rounded-2xl hover:bg-brand-mid/20 hover:border-brand-light active:scale-95 transition-all duration-300 text-base md:text-lg">
                                 Ver Recomendaciones
                             </button>
                         </div>
                     </div>
 
                     <!-- Tarjeta Destacada Ultra-Wide -->
-                    <div id="hero-dynamic-card" class="w-[95%] md:w-[90%] max-w-6xl h-[350px] md:h-[500px] lg:h-[600px] relative z-10 flex-shrink-0 mx-auto">
+                    <div id="hero-dynamic-card"
+                        class="w-[95%] md:w-[90%] max-w-6xl h-[350px] md:h-[500px] lg:h-[600px] relative z-10 flex-shrink-0 mx-auto">
                         <!-- Skeleton -->
-                        <div class="bg-[#0a0a0a] border border-white/10 rounded-[2.5rem] overflow-hidden shadow-2xl relative h-full w-full flex items-center justify-center">
-                            <span class="animate-pulse text-gray-500 text-sm tracking-widest font-bold">Cargando Cartelera...</span>
+                        <div
+                            class="bg-[#0a0a0a] border border-white/10 rounded-[2.5rem] overflow-hidden shadow-2xl relative h-full w-full flex items-center justify-center">
+                            <span class="animate-pulse text-gray-500 text-sm tracking-widest font-bold">Cargando
+                                Cartelera...</span>
                         </div>
                     </div>
 
                 </div>
-                
+
                 <!-- TRUST BAR (Conversión) --><!-- TRUST BAR (Conversión) -->
                 <div class="grid grid-cols-3 gap-3 md:gap-6 mt-8 px-2 md:px-0">
-                    <div class="flex flex-col items-center justify-center gap-3 p-4 md:p-6 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 hover:border-brand-mid/50 hover:bg-brand-dark/20 transition-all duration-500 rounded-[2rem] text-center group">
-                        <div class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:rotate-6 transition-transform shadow-[0_0_20px_rgba(109,40,217,0.2)]">⚡</div>
+                    <div
+                        class="flex flex-col items-center justify-center gap-3 p-4 md:p-6 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 hover:border-brand-mid/50 hover:bg-brand-dark/20 transition-all duration-500 rounded-[2rem] text-center group">
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:rotate-6 transition-transform shadow-[0_0_20px_rgba(109,40,217,0.2)]">
+                            ⚡</div>
                         <div>
-                            <p class="text-white font-bold text-[10px] md:text-sm mb-0.5 tracking-wide">Activación Rápida</p>
+                            <p class="text-white font-bold text-[10px] md:text-sm mb-0.5 tracking-wide">Activación
+                                Rápida</p>
                             <p class="hidden md:block text-gray-500 text-[10px] md:text-xs">Lista en minutos</p>
                         </div>
                     </div>
-                    <div class="flex flex-col items-center justify-center gap-3 p-4 md:p-6 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 hover:border-brand-mid/50 hover:bg-brand-dark/20 transition-all duration-500 rounded-[2rem] text-center group">
-                        <div class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:-rotate-6 transition-transform shadow-[0_0_20px_rgba(109,40,217,0.2)]">🛡️</div>
+                    <div
+                        class="flex flex-col items-center justify-center gap-3 p-4 md:p-6 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 hover:border-brand-mid/50 hover:bg-brand-dark/20 transition-all duration-500 rounded-[2rem] text-center group">
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:-rotate-6 transition-transform shadow-[0_0_20px_rgba(109,40,217,0.2)]">
+                            🛡️</div>
                         <div>
-                            <p class="text-white font-bold text-[10px] md:text-sm mb-0.5 tracking-wide">Garantía Total</p>
+                            <p class="text-white font-bold text-[10px] md:text-sm mb-0.5 tracking-wide">Garantía Total
+                            </p>
                             <p class="hidden md:block text-gray-500 text-[10px] md:text-xs">Servicio 30 días</p>
                         </div>
                     </div>
-                    <div class="flex flex-col items-center justify-center gap-3 p-4 md:p-6 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 hover:border-brand-mid/50 hover:bg-brand-dark/20 transition-all duration-500 rounded-[2rem] text-center group">
-                        <div class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:rotate-6 transition-transform shadow-[0_0_20px_rgba(109,40,217,0.2)]">📱</div>
+                    <div
+                        class="flex flex-col items-center justify-center gap-3 p-4 md:p-6 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 hover:border-brand-mid/50 hover:bg-brand-dark/20 transition-all duration-500 rounded-[2rem] text-center group">
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:rotate-6 transition-transform shadow-[0_0_20px_rgba(109,40,217,0.2)]">
+                            📱</div>
                         <div>
                             <p class="text-white font-bold text-[10px] md:text-sm mb-0.5 tracking-wide">Soporte Real</p>
                             <p class="hidden md:block text-gray-500 text-[10px] md:text-xs">Ayuda WhatsApp</p>
@@ -204,11 +262,16 @@
             </section>
 
             <!-- MENÚ DE CATEGORÍAS (Deslizamiento táctil y flechas PC) -->
-            <div class="reveal-on-scroll relative z-30 sticky top-[68px] md:top-[85px] py-3 md:py-4 backdrop-blur-2xl border-y border-brand-mid/40 shadow-[0_10px_30px_rgba(0,0,0,0.8)] -mx-4 md:mx-0 md:rounded-2xl mb-8 overflow-hidden group/cat" style="background: radial-gradient(circle, #6d28d9 0%, #4c1d95 45%, #2e1065 100%);">
-                
+            <div class="reveal-on-scroll relative z-30 sticky top-[68px] md:top-[85px] py-3 md:py-4 backdrop-blur-2xl border-y border-brand-mid/40 shadow-[0_10px_30px_rgba(0,0,0,0.8)] -mx-4 md:mx-0 md:rounded-2xl mb-8 overflow-hidden group/cat"
+                style="background: radial-gradient(circle, #6d28d9 0%, #4c1d95 45%, #2e1065 100%);">
+
                 <!-- Botón Anterior (Solo PC) -->
-                <button onclick="scrollCategories(-250)" class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-[#160b24] border border-brand-mid/50 items-center justify-center text-brand-light hover:bg-brand-mid hover:text-white transition-all shadow-lg opacity-0 group-hover/cat:opacity-100">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path></svg>
+                <button onclick="scrollCategories(-250)"
+                    class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-[#160b24] border border-brand-mid/50 items-center justify-center text-brand-light hover:bg-brand-mid hover:text-white transition-all shadow-lg opacity-0 group-hover/cat:opacity-100">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
                 </button>
 
                 <!-- Contenedor nativo que permite slide (arrastrar/deslizar) con el dedo -->
@@ -217,8 +280,11 @@
                 </nav>
 
                 <!-- Botón Siguiente (Solo PC) -->
-                <button onclick="scrollCategories(250)" class="hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-[#160b24] border border-brand-mid/50 items-center justify-center text-brand-light hover:bg-brand-mid hover:text-white transition-all shadow-lg opacity-0 group-hover/cat:opacity-100">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+                <button onclick="scrollCategories(250)"
+                    class="hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-[#160b24] border border-brand-mid/50 items-center justify-center text-brand-light hover:bg-brand-mid hover:text-white transition-all shadow-lg opacity-0 group-hover/cat:opacity-100">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
+                    </svg>
                 </button>
             </div>
 
@@ -228,42 +294,54 @@
             </div>
 
             <!-- SOBRE NOSOTROS Y GARANTÍA -->
-            <section id="soporte-tecnico" class="reveal-on-scroll mt-16 bg-[#0a0a0a] border border-brand-mid/20 p-8 md:p-12 rounded-[2rem] relative overflow-hidden scroll-margin-top-90" style="scroll-margin-top: 100px;">
-                <div class="absolute inset-0 bg-gradient-to-br from-brand-dark/10 to-transparent pointer-events-none"></div>
+            <section id="soporte-tecnico"
+                class="reveal-on-scroll mt-16 bg-[#0a0a0a] border border-brand-mid/20 p-8 md:p-12 rounded-[2rem] relative overflow-hidden scroll-margin-top-90"
+                style="scroll-margin-top: 100px;">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-dark/10 to-transparent pointer-events-none">
+                </div>
                 <div class="md:max-w-3xl md:mx-auto text-center relative z-10">
                     <h4 class="text-2xl md:text-4xl font-black text-white mb-6 tracking-tight">¿Por qué elegirnos?</h4>
                     <p class="text-sm md:text-base text-gray-400 mb-10 font-light leading-relaxed">
-                        Nuestra experiencia de más de 2 años nos permite ofrecer servicios confiables. Contamos con <strong class="text-white font-semibold">más de 800 clientes satisfechos</strong>. Tu satisfacción es nuestra prioridad; si alguna vez surge un inconveniente, nuestro equipo está listo para ayudarte rápidamente.
+                        Nuestra experiencia de más de 2 años nos permite ofrecer servicios confiables. Contamos con
+                        <strong class="text-white font-semibold">más de 800 clientes satisfechos</strong>. Tu
+                        satisfacción es nuestra prioridad; si alguna vez surge un inconveniente, nuestro equipo está
+                        listo para ayudarte rápidamente.
                     </p>
-                    
+
                     <!-- BOTÓN DE SOPORTE TÉCNICO WHATSAPP -->
-                    <a href="https://wa.me/573170573237?text=Hola,%20tengo%20un%20inconveniente%20con%20mi%20cuenta%20y%20necesito%20soporte%20t%C3%A9cnico." target="_blank" class="inline-flex items-center justify-center gap-2 bg-[#1a1a1a] border border-brand-mid/50 hover:bg-brand-dark hover:border-brand-light text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 active:scale-95 text-sm w-full md:w-auto shadow-[0_0_20px_rgba(109, 40, 217,0.2)]">
+                    <a href="https://wa.me/573170573237?text=Hola,%20tengo%20un%20inconveniente%20con%20mi%20cuenta%20y%20necesito%20soporte%20t%C3%A9cnico."
+                        target="_blank"
+                        class="inline-flex items-center justify-center gap-2 bg-[#1a1a1a] border border-brand-mid/50 hover:bg-brand-dark hover:border-brand-light text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 active:scale-95 text-sm w-full md:w-auto shadow-[0_0_20px_rgba(109, 40, 217,0.2)]">
                         <span>💬</span> Contactar Soporte Técnico
                     </a>
                 </div>
             </section>
 
             <!-- SECCIÓN COMUNIDAD, REDES Y VIP -->
-            <section class="reveal-on-scroll mt-10 md:mt-16 relative">
-                <div class="bg-gradient-to-r from-[#25D366]/10 to-transparent border border-[#25D366]/20 p-8 md:p-12 rounded-[2rem] text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
-                    <div>
-                        <h3 class="text-xl md:text-2xl font-black text-white mb-2 tracking-tight">
-                            Comunidad <span class="text-[#25D366]">VIP</span>
-                        </h3>
-                        <p class="text-sm text-gray-400 font-light max-w-md">Únete gratis a nuestra comunidad de WhatsApp y recibe descuentos exclusivos antes que nadie.</p>
-                    </div>
-                    <a href="https://chat.whatsapp.com/HwlJwCGlIBe456tLhCGgms" target="_blank" class="w-full md:w-auto flex-shrink-0 bg-[#25D366] hover:bg-[#1fb857] text-black font-bold px-8 py-4 rounded-xl transition-all duration-300 active:scale-95 text-sm shadow-lg text-center">
-                        Unirme Gratis
-                    </a>
-                </div>
 
-                
+
+
             <!-- REDES SOCIALES FOOTER -->
-                <div class="flex justify-center gap-8 mt-12 mb-8">
-                    <a href="https://www.facebook.com/kokostreaming.co/" target="_blank" class="text-gray-500 hover:text-brand-light transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.597 1.323-1.324V1.325C24 .597 23.403 0 22.675 0z"/></svg></a>
-                    <a href="https://www.instagram.com/tiendastreamingcolombia" target="_blank" class="text-gray-500 hover:text-brand-light transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
-                    <a href="https://www.tiktok.com/@kokostreaming.co" target="_blank" class="text-gray-400 hover:text-white transition-colors"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/></svg></a>
-                </div>
+            <div class="flex justify-center gap-8 mt-12 mb-8">
+                <a href="https://www.facebook.com/kokostreaming.co/" target="_blank"
+                    class="text-gray-500 hover:text-brand-light transition-colors"><svg class="w-6 h-6"
+                        fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.597 1.323-1.324V1.325C24 .597 23.403 0 22.675 0z" />
+                    </svg></a>
+                <a href="https://www.instagram.com/tiendastreamingcolombia" target="_blank"
+                    class="text-gray-500 hover:text-brand-light transition-colors"><svg class="w-6 h-6"
+                        fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg></a>
+                <a href="https://www.tiktok.com/@kokostreaming.co" target="_blank"
+                    class="text-gray-400 hover:text-white transition-colors"><svg class="w-5 h-5" fill="currentColor"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z" />
+                    </svg></a>
+            </div>
             </section>
 
             <!-- ENLACES LEGALES / NOSOTROS -->
@@ -283,9 +361,14 @@
         </main>
 
         <!-- FLOATING ACTION BUTTON (Cart) - Oculto hasta tener items -->
-        <div id="floating-cart-btn" class="fixed bottom-6 right-6 lg:bottom-8 lg:right-8 z-50 transform translate-y-24 transition-all duration-500 cursor-pointer active:scale-95">
-            <button class="bg-gradient-to-r from-brand-mid to-brand-light text-white font-bold rounded-2xl px-6 py-4 shadow-[0_10px_30px_rgba(109, 40, 217,0.4)] flex items-center gap-3 pointer-events-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+        <div id="floating-cart-btn"
+            class="fixed bottom-6 right-6 lg:bottom-8 lg:right-8 z-50 transform translate-y-24 transition-all duration-500 cursor-pointer active:scale-95">
+            <button
+                class="bg-gradient-to-r from-brand-mid to-brand-light text-white font-bold rounded-2xl px-6 py-4 shadow-[0_10px_30px_rgba(109, 40, 217,0.4)] flex items-center gap-3 pointer-events-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                </svg>
                 <div class="flex flex-col items-start text-left leading-none">
                     <span class="text-[10px] uppercase tracking-wide opacity-80 font-inter">Ver Carrito</span>
                     <span id="float-total" class="text-base font-black font-inter">$0</span>
@@ -294,12 +377,15 @@
         </div>
 
         <!-- CART MODAL (Diseño Shopify Drawer/Modal) -->
-        <div id="cart-modal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 transition-opacity">
-            <div class="bg-[#111] w-full max-w-md sm:rounded-2xl rounded-t-2xl border border-white/10 p-6 sm:p-8 shadow-2xl transform transition-transform duration-300 translate-y-full flex flex-col max-h-[90vh]" id="cart-content">
-                
+        <div id="cart-modal"
+            class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 transition-opacity">
+            <div class="bg-[#111] w-full max-w-md sm:rounded-2xl rounded-t-2xl border border-white/10 p-6 sm:p-8 shadow-2xl transform transition-transform duration-300 translate-y-full flex flex-col max-h-[90vh]"
+                id="cart-content">
+
                 <div class="flex justify-between items-center mb-6 pb-4 border-b border-white/5">
                     <h3 class="text-xl font-bold text-white tracking-tight">Tu Carrito</h3>
-                    <button id="close-cart-btn" class="text-gray-400 hover:text-white bg-white/5 w-8 h-8 rounded-full flex items-center justify-center transition-colors">&times;</button>
+                    <button id="close-cart-btn"
+                        class="text-gray-400 hover:text-white bg-white/5 w-8 h-8 rounded-full flex items-center justify-center transition-colors">&times;</button>
                 </div>
 
                 <!-- Cart Items -->
@@ -313,12 +399,17 @@
                         <span class="text-sm text-gray-400 font-inter">Total a Pagar</span>
                         <span id="cart-total" class="text-3xl font-black text-white font-inter">$0</span>
                     </div>
-                    
-                    <button id="send-order-btn" class="w-full bg-[#25D366] hover:bg-[#1fb857] text-black font-bold py-4 rounded-xl active:scale-95 flex items-center justify-center gap-2 transition-all duration-300 mb-3 text-sm">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.487-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+
+                    <button id="send-order-btn"
+                        class="w-full bg-[#25D366] hover:bg-[#1fb857] text-black font-bold py-4 rounded-xl active:scale-95 flex items-center justify-center gap-2 transition-all duration-300 mb-3 text-sm">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.487-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                        </svg>
                         Pedir por WhatsApp
                     </button>
-                    <button id="clear-cart-btn" class="w-full text-gray-500 hover:text-red-400 text-xs font-medium py-2 transition-colors">
+                    <button id="clear-cart-btn"
+                        class="w-full text-gray-500 hover:text-red-400 text-xs font-medium py-2 transition-colors">
                         Vaciar Carrito
                     </button>
                 </div>
@@ -330,4 +421,5 @@
     <!-- JAVASCRIPT LOGIC -->
     <script src="script.js"></script>
 </body>
+
 </html>
