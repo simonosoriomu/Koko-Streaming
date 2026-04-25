@@ -6,14 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Koko streaming | Tu portal de entretenimiento digital</title>
 
-    <!-- 🚨 MEDIDA DE SEGURIDAD ANTI-BOTS: Ocultar de Google y evitar rastreo -->
+
     <meta name="robots" content="noindex, nofollow">
 
-    <!-- Meta descripción genérica y comercial -->
     <meta name="description"
         content="Accede al mejor contenido digital al instante. Servicio rápido, seguro y con soporte garantizado.">
 
-    <!-- Etiquetas Open Graph (WhatsApp, Facebook, etc.) - Ofuscadas contra bots -->
     <meta property="og:title" content="Koko streaming | Tu portal de entretenimiento digital">
     <meta property="og:description"
         content="Accede al mejor contenido digital al instante. Servicio rápido, seguro y con soporte garantizado.">
@@ -21,22 +19,22 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="/logo.png">
 
-    <!-- Conexión del Favicon -->
+
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-    <!-- OPTIMIZACIÓN: Preconexiones para acelerar descargas de fuentes e íconos -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://t3.gstatic.com">
 
-    <!-- Tailwind CSS -->
+
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- OPTIMIZACIÓN: defer en Chart.js para no bloquear el renderizado de la página -->
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
 
-    <!-- Google Fonts -->
+
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -69,11 +67,11 @@
 
 <body class="antialiased min-h-screen pb-24 relative overflow-x-hidden">
 
-    <!-- INTRO CINEMATOGRÁFICA -->
+
     <div id="cinema-overlay">
         <div class="cinema-curtain curtain-top"></div>
         <div class="cinema-curtain curtain-bottom"></div>
-        <img src="assets/koko_logo.png" alt="Koko streaming" class="cinema-logo-intro object-contain">
+        <img src="assets/koko_logo.png" alt="Koko streaming" class="cinema-logo-intro object-contain rounded-3xl">
     </div>
 
     <noscript>
@@ -84,19 +82,18 @@
         </div>
     </noscript>
 
-    <!-- APP CONTAINER (Premium E-commerce Layout) -->
+
     <div class="mx-auto max-w-md md:max-w-4xl lg:max-w-7xl bg-app-bg min-h-screen relative transition-all duration-300">
 
-        <!-- HEADER STICKY -->
         <header class="glass-header sticky top-0 z-40 px-4 md:px-8 py-3.5 flex justify-between items-center">
-            <!-- LOGOTIPO OFICIAL -->
+            <!-- LOGO -->
             <div class="flex items-center h-full">
-                <img src="assets/koko_logo.png" alt="Koko streaming" class="h-9 md:h-14 object-contain" loading="eager"
-                    fetchpriority="high">
+                <img src="assets/koko_logo.png" alt="Koko streaming"
+                    class="h-9 md:h-14 object-contain rounded-xl md:rounded-2xl" loading="eager" fetchpriority="high">
             </div>
 
             <div class="flex items-center gap-3 md:gap-5">
-                <!-- Redes Minimalistas (Visibles en móvil y desktop) -->
+                <!-- Redes -->
                 <div class="flex gap-2.5 md:gap-4 mr-1 md:mr-4 border-r border-white/10 pr-3 md:pr-6">
                     <a href="https://www.facebook.com/share/18jVT2saSj/?mibextid=wwXIfr" target="_blank"
                         class="text-gray-400 hover:text-brand-light transition-colors"><svg
@@ -116,7 +113,7 @@
                         </svg></a>
                 </div>
 
-                <!-- Icono de Carrito E-commerce -->
+                <!-- Icono de Carrito  -->
                 <div id="cart-icon-container" class="relative cursor-pointer flex items-center gap-2 group">
                     <div
                         class="relative w-9 h-9 md:w-10 md:h-10 flex items-center justify-center bg-white/5 border border-brand-mid/30 rounded-full group-hover:bg-brand-mid/20 transition-colors">
@@ -132,7 +129,7 @@
             </div>
         </header>
 
-        <!-- TEXTO DINÁMICO DESLIZANTE (MARQUEE DE BENEFICIOS) -->
+        <!-- TEXTO DINÁMICO DESLIZANTE  -->
         <div class="w-full bg-[#0a0a0a] border-b border-brand-dark/30 py-2.5 overflow-hidden z-30">
             <div
                 class="animate-scroll text-[11px] md:text-xs font-semibold text-gray-300 uppercase tracking-widest font-inter">
@@ -145,7 +142,7 @@
                     <span class="mx-3 md:mx-4 text-brand-light">🎬</span> Combos de diferentes plataformas al mejor
                     precio
                 </div>
-                <!-- Fragmento Duplicado para Loop Infinito Perfecto -->
+
                 <div class="flex items-center">
                     <span class="mx-3 md:mx-4 text-brand-light">⚡</span> Ofrecemos garantía y soporte
                     <span class="mx-3 md:mx-4 text-brand-light">💳</span> Recibimos todos los medios de pago
@@ -157,15 +154,15 @@
             </div>
         </div>
 
-        <!-- MAIN CONTENT AREA -->
+
         <main class="p-4 md:p-8 space-y-10 md:space-y-14 pt-8">
 
-            <!-- HERO SECTION E-COMMERCE -->
+
             <section class="reveal-on-scroll">
                 <div
                     class="relative px-4 py-12 md:py-24 rounded-[3rem] border border-white/5 overflow-hidden flex flex-col items-center text-center shadow-[0_0_50px_rgba(109,40,217,0.05)]">
 
-                    <!-- Fondo inmersivo -->
+
                     <div class="absolute inset-0 bg-[#050505] z-0"></div>
                     <div
                         class="absolute -top-[30%] left-1/2 -translate-x-1/2 w-[120%] md:w-[80%] h-[70%] bg-brand-mid/20 blur-[120px] rounded-full pointer-events-none z-0">
@@ -204,7 +201,8 @@
                                 class="w-full sm:w-auto px-10 py-5 bg-white text-black font-black rounded-2xl hover:scale-105 active:scale-95 transition-transform duration-300 shadow-[0_0_30px_rgba(255,255,255,0.2)] text-base md:text-lg">
                                 Explorar Catálogo
                             </button>
-                            <button onclick="window.location.href='recomendaciones.html'"
+                            <button
+                                onclick="document.getElementById('sec-recomendaciones').scrollIntoView({behavior: 'smooth'})"
                                 class="w-full sm:w-auto px-10 py-5 bg-white/5 backdrop-blur-md text-white border border-brand-light/30 font-bold rounded-2xl hover:bg-brand-mid/20 hover:border-brand-light active:scale-95 transition-all duration-300 text-base md:text-lg">
                                 Ver Recomendaciones
                             </button>
@@ -214,7 +212,7 @@
                     <!-- Tarjeta Destacada Ultra-Wide -->
                     <div id="hero-dynamic-card"
                         class="w-[95%] md:w-[90%] max-w-6xl h-[350px] md:h-[500px] lg:h-[600px] relative z-10 flex-shrink-0 mx-auto">
-                        <!-- Skeleton -->
+
                         <div
                             class="bg-[#0a0a0a] border border-white/10 rounded-[2.5rem] overflow-hidden shadow-2xl relative h-full w-full flex items-center justify-center">
                             <span class="animate-pulse text-gray-500 text-sm tracking-widest font-bold">Cargando
@@ -224,7 +222,7 @@
 
                 </div>
 
-                <!-- TRUST BAR (Conversión) --><!-- TRUST BAR (Conversión) -->
+
                 <div class="grid grid-cols-3 gap-3 md:gap-6 mt-8 px-2 md:px-0">
                     <div
                         class="flex flex-col items-center justify-center gap-3 p-4 md:p-6 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 hover:border-brand-mid/50 hover:bg-brand-dark/20 transition-all duration-500 rounded-[2rem] text-center group">
@@ -261,7 +259,7 @@
                 </div>
             </section>
 
-            <!-- MENÚ DE CATEGORÍAS (Deslizamiento táctil y flechas PC) -->
+            <!-- MENÚ DE CATEGORÍAS -->
             <div class="reveal-on-scroll relative z-30 sticky top-[68px] md:top-[85px] py-3 md:py-4 backdrop-blur-2xl border-y border-brand-mid/40 shadow-[0_10px_30px_rgba(0,0,0,0.8)] -mx-4 md:mx-0 md:rounded-2xl mb-8 overflow-hidden group/cat"
                 style="background: radial-gradient(circle, #6d28d9 0%, #4c1d95 45%, #2e1065 100%);">
 
@@ -274,9 +272,8 @@
                     </svg>
                 </button>
 
-                <!-- Contenedor nativo que permite slide (arrastrar/deslizar) con el dedo -->
                 <nav id="category-nav" class="flex overflow-x-auto hide-scroll gap-3 w-full items-center px-4 md:px-12">
-                    <!-- JS inyectará las píldoras aquí -->
+
                 </nav>
 
                 <!-- Botón Siguiente (Solo PC) -->
@@ -290,7 +287,7 @@
 
             <!-- CONTENEDOR DINÁMICO DE PRODUCTOS -->
             <div id="all-products-container" class="space-y-14 md:space-y-20 pt-4">
-                <!-- Tarjetas inyectadas por JS -->
+
             </div>
 
             <!-- SOBRE NOSOTROS Y GARANTÍA -->
@@ -316,10 +313,6 @@
                     </a>
                 </div>
             </section>
-
-            <!-- SECCIÓN COMUNIDAD, REDES Y VIP -->
-
-
 
             <!-- REDES SOCIALES FOOTER -->
             <div class="flex justify-center gap-8 mt-12 mb-8">
@@ -360,7 +353,6 @@
 
         </main>
 
-        <!-- FLOATING ACTION BUTTON (Cart) - Oculto hasta tener items -->
         <div id="floating-cart-btn"
             class="fixed bottom-6 right-6 lg:bottom-8 lg:right-8 z-50 transform translate-y-24 transition-all duration-500 cursor-pointer active:scale-95">
             <button
@@ -376,7 +368,7 @@
             </button>
         </div>
 
-        <!-- CART MODAL (Diseño Shopify Drawer/Modal) -->
+
         <div id="cart-modal"
             class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 transition-opacity">
             <div class="bg-[#111] w-full max-w-md sm:rounded-2xl rounded-t-2xl border border-white/10 p-6 sm:p-8 shadow-2xl transform transition-transform duration-300 translate-y-full flex flex-col max-h-[90vh]"
@@ -388,12 +380,12 @@
                         class="text-gray-400 hover:text-white bg-white/5 w-8 h-8 rounded-full flex items-center justify-center transition-colors">&times;</button>
                 </div>
 
-                <!-- Cart Items -->
+
                 <div id="cart-items" class="overflow-y-auto flex-1 space-y-3 hide-scroll min-h-[150px]">
                     <p class="text-center text-gray-500 py-10 font-light">Tu carrito está vacío.</p>
                 </div>
 
-                <!-- Total & Actions -->
+
                 <div class="border-t border-white/5 pt-6 mt-4">
                     <div class="flex justify-between items-end mb-6">
                         <span class="text-sm text-gray-400 font-inter">Total a Pagar</span>
